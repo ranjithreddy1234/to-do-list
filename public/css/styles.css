@@ -1,0 +1,103 @@
+#container1 {
+  background-color: #E4E9FD !important;
+  background-image: -webkit-linear-gradient(65deg, #0F4C75 50%, #E4E9FD 50%) !important;
+  min-height: 1000px !important;
+  font-family: 'Montserrat', sans-serif !important;
+  margin: 0;
+  padding-top: 20px !important;
+  /* font-family: 'helvetica neue'; */
+  /* A683E3  11468F*/
+}
+
+h1 {
+  color: #fff !important;
+  padding: 10px !important;
+}
+
+.boxi {
+  max-width: 400px !important;
+  margin:50px auto;
+  margin-top: 0 !important;
+  background: white !important;
+  border-radius: 5px !important;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3) !important;
+}
+
+#headings {
+  background-color: #0F4C75 !important;
+  text-align: center !important;
+  margin-top: 10px;
+}
+
+.item {
+  min-height: 70px !important;
+  display: flex !important;
+  align-items: center !important;
+  border-bottom: 1px solid #F1F1F1 !important;
+}
+
+.item:last-child {
+  border-bottom: 0 !important;
+}
+
+input:checked+p {
+  text-decoration: line-through !important;
+  text-decoration-color: #0F4C75 !important;
+}
+
+input[type="checkbox"] {
+  margin: 20px !important;
+}
+
+p {
+  margin: 0 !important;
+  padding: 20px !important;
+  font-size: 20px !important;
+  font-weight: 200 !important;
+  /* color: #0F4C75 !important; */
+}
+
+form.item {
+  text-align: center !important;
+  margin-left: 20px !important;
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+#btn1{
+  min-height: 50px !important;
+  width: 50px !important;
+  border-radius: 50% !important;
+  border-color: transparent !important;
+  background-color: #0F4C75 !important;
+  color: #fff !important;
+  font-size: 30px !important;
+  padding-bottom: 6px !important;
+  border-width: 0 !important;
+}
+
+input[type="text"] {
+  text-align: center;
+  height: 60px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 200;
+  width: 313px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: inset 0 -3px 0 0 #1B262C;
+}
+
+::placeholder {
+  color: grey;
+  opacity: 1;
+}
+
+footer {
+  color: white;
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
